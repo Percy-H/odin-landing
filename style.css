@@ -28,6 +28,7 @@ ul {
     margin: 0px;
     padding: 0px;
     display: flex;
+    gap: 12px;
 }
 
 header a {
@@ -37,6 +38,7 @@ header a {
 
 .hero {
     display: flex;
+    gap: 25px;
     background-color: #1f2937;
     color: #e5e7eb;
     padding: 10px 10%;
@@ -88,18 +90,41 @@ h2 {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 10px 10%;
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quoted {
+    font-size: 18px;
 }
 
 blockquote {
     color: #1f2937;
-    font-size: 48px;
+    font-size: 42px;
     font-style: italic;
     font-weight: 300;
+    margin: 0px 0px 0px 40px;
 }
 
 .cta {
+    color: #f9faf8;
+    margin: 10px 10%;
+    padding: 10px 5%;
+    background-color: #3882f6;
+    border-radius: 25px;
+    display: flex;
+    gap: 20px;
+}
 
+button{
+    padding: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: solid #f9faf8;
+    align-self: center;
+    border-radius: 5px;
 }
 
 footer {
